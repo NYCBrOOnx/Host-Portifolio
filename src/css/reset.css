@@ -1,0 +1,31 @@
+:root {
+    --fundo: #F8F9FA;
+    --cabecalho: #6200EA;
+    --hover: #FF4081;
+    --links: #03DAC6;
+    --texto: #333333;
+}
+
+/* Fundo do site → #F8F9FA
+Cabeçalho e botões → #6200EA
+Efeitos hover e destaques → #FF4081
+Links e pequenos detalhes → #03DAC6
+Texto principal → #333333 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+} 
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
