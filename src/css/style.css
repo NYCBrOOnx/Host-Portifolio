@@ -90,6 +90,10 @@ a {
     color: var(--texto);
 }
 
+.cartao .infos span {
+    font-size: 15px;
+}
+
 .youtube {
     margin: 10px;
     border-radius: 20px;
